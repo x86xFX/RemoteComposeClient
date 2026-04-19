@@ -30,9 +30,7 @@ fun SubscriptionScreen(
 ) {
     val result by subscriptionViewModel.removeViewState.collectAsStateWithLifecycle()
 
-    Scaffold(
-        containerColor = Color(0xFF656F74)
-    ) { innerPadding ->
+    Scaffold(containerColor = Color(0xFF000000)) { innerPadding ->
         when (val data = result) {
             RemoteViewState.Idle -> Unit
 

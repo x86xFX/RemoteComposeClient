@@ -16,6 +16,8 @@ ksp = "2.3.6"
 
 [libraries]
 
+androidx-compose-remote-creation-android = { module = "androidx.compose.remote:remote-creation-android", version.ref = "remoteCompose" }
+androidx-compose-remote-creation-compose = { module = "androidx.compose.remote:remote-creation-compose", version.ref = "remoteCompose" }
 androidx-compose-remote-player-compose = { module = "androidx.compose.remote:remote-player-compose", version.ref = "remoteCompose" }
 androidx-compose-remote-player-core = { module = "androidx.compose.remote:remote-player-core", version.ref = "remoteCompose" }
 androidx-compose-remote-player-view = { module = "androidx.compose.remote:remote-player-view", version.ref = "remoteCompose" }

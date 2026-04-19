@@ -62,9 +62,8 @@ dependencies {
     implementation(libs.androidx.compose.remote.player.core)
     implementation(libs.androidx.compose.remote.player.view)
     implementation(libs.androidx.compose.remote.player.compose)
-
-    implementation("androidx.compose.remote:remote-creation-android:1.0.0-alpha08")
-    implementation("androidx.compose.remote:remote-creation-compose:1.0.0-alpha08")
+    implementation(libs.androidx.compose.remote.creation.android)
+    implementation(libs.androidx.compose.remote.creation.compose)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
